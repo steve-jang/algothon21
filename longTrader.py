@@ -1,7 +1,6 @@
 import talib
 import pandas as pd
 from datetime import date, timedelta
-from optimal_sma import get_all_optimal_sma_periods
 
 BUY_LIMIT = 10000
 BUY_PERCENTAGE = 0.8
