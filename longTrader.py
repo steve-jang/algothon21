@@ -14,7 +14,7 @@ for i in [1, 3, 9, 11, 13, 14, 16, 17, 19, 21, 23, 24, 27, 29, 30, 31, 35, 42, 4
     instrument_strategies[i] = {"strategy": "RSI"}
 
 # Instruments where SMA strategy with optimised short and long moving
-# average periods proved effective
+# average periods proved effective (read off from output of optimal_sma.py)
 instrument_strategies[0] = {"strategy": "SMA", "short": 10, "long": 60}
 instrument_strategies[5] = {"strategy": "SMA", "short": 10, "long": 50}
 instrument_strategies[6] = {"strategy": "SMA", "short": 50, "long": 160}
